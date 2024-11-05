@@ -1,0 +1,168 @@
+/*
+selector {
+propiedad : valor; // solo va una regla por linea
+}
+*/
+
+/* --------------tipo de selectores--------- */
+
+/* elemento*/
+h3 {
+    color: blue;
+    background-color: rgb(229, 255, 0);
+}
+
+/*clase*/
+.parrafo{
+    color: chocolate;
+    background-color: rgb(155, 213, 252);
+}
+
+/*ID*/
+#identificador{
+    color: rgb(116, 180, 52);
+    background-color: #e6f808;
+    
+}
+
+body {
+    background-color: rgb(204, 235, 224)
+}
+
+/*--------------------------------------------------*/
+.parrafo1{
+  
+    
+    border: 17px groove red;
+    border-radius: 10px 50px  15px 5px;
+}
+
+/* h2{
+    text-align: center;
+   background-image: url(https://cdn-icons-png.flaticon.com/128/3682/3682321.png) ; 
+   background-position: center, top left; 
+   background-repeat: no-repeat;
+   background-size: 40px 40px;
+   
+} */
+
+img {
+    width: 500px;
+    border: 2px solid red;
+    border-radius: 12px;
+    box-shadow: 10px 10px;
+    opacity: 0.5;
+    transition: transform 0.3s ease;
+    filter: grayscale(100%);
+}img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    transform: rotate(10deg);
+}
+/*
+-------- principales propiedades de texto---------
+-font-family: definir la familia de la fuente
+-font-size: define el tamaño de la fuente
+-font-weight: establece el grosor de la fuente
+-text-aling: alinea el texto(centre,izquierdo,derecho)
+-text-decoration: agregar decoracion al texto 
+-text-transform: cambia el caso del texto (overline, none, underline,line-trough)
+-letter-spacing: controla el espacio entre las letras.
+-line-height: controla el espacio entre las lineas
+-color: cambia el color al texto
+-text-shadow: aplica una sombra
+*/
+
+.text-container{
+    max-width: 600px;
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgb(3, 3, 3);
+}
+.texto-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #e6f808;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px red;
+}
+.text-parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgb(34, 34, 74);
+    text-decoration: underline;
+}
+/*---------propiedades de espacio----------------
+1. margin: define el espacio exterior de un elemnto.
+    margin-top // margen superior
+    margin-right // margen derecha
+    margin-bottom // margen inferior
+    margin-left // marfen izquierda
+
+padding: Define el espacio interior de un elemento.
+    padding-top
+    padding-right
+    paddin-bottom
+    padding-left
+
+border: agrega un borde al rededor del elemento
+
+box-sizing: define el modelo de caja para calcular el tamaño del elemento
+    box-sizing: center-box: calcula el ancho y el alto sin incluir el padding
+    box-sizing: borde-box: incluye el padding y el borde dentro del ancho y el alto especificados
+
+*/
+*{
+    box-sizing: border-box;
+}
+.espacio-container{
+    max-width: 500px;
+    background-color: rgb(136, 131, 131);
+    border: 3px solid red;
+    border-radius: 8px;
+    margin: 40px;
+    padding: 20px;
+    text-align: justify;
+}
+p{
+    margin: 20px 0;
+    padding: 15px;
+    background-color: aqua;
+    border-left: 4px solid;
+}
+
+h3{
+    margin: 0;
+    padding: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

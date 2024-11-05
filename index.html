@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPagina</title>
+
+
+</head>
+
+<body>
+
+    <h1>ETIQUETAS DE TEXTO</h1>
+    <h2>subtitulo</h2>
+    <h3>subtitulo</h3>
+    <h4>subtitulo</h4>
+    <h5>subtitulo</h5>
+
+
+<!-- <h6>subtitulo</h6> -->
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eveniet sit ad quis fuga accusamus, tempore eius in recusandae provident, veritatis fugit nam distinctio perferendis, culpa voluptas! Nostrum, consequuntur harum.</p> 
+
+<p>Lorem            ipsum dolor sit amet, consectetur adipisicing elit. Dolores id, ut assumenda nobis nulla velit incidunt commodi excepturi voluptas exercitationem doloremque adipisci delectus. Hic neque aspernatur repellendus quos, nostrum voluptate?</p>
+
+<p>este es un <b><i>parrafo</i> parrafo corto con negrita </b> corto</p>
+
+<P><del>ESTE ES UN TEXTO</del> <ins>DE PRUEBA PARA CONOCER</ins> LAS ETIQUETAS</P>
+
+<h2>Listas ordenadas</h2>
+<ol>
+    <li>elemnto 1</li>
+    <li>elemnto 2</li>
+    <li>elemnto 3</li>
+    <li>elemnto 4</li>
+    <li>elemnto 5</li>
+</ol>
+<hr>
+<h2>Listas desordenadas</h2>
+<ul>
+    <li>elemnto 1</li><br>
+    <li>elemnto 2</li>
+    <li>elemnto 3</li>
+    <li>elemnto 4</li>
+    <li>elemnto 5</li>
+</ul>
+
+<h3>Listas anidadas</h3>
+<ul>
+    <li>elemento 1</li>
+    <li>elemto 2</li>
+    <ul>
+        <li>subelemento 1 </li>
+        <li>subelemento 2</li>
+    </ul>
+    <li>elemento 3</li>
+</ul>
+<h1></h1>
+<h1>ETIQUETAS DE NAVEGACION</h1>
+<a href="https://www.youtube.com/watch?v=ELSm-G201Ls">ver mas</a>
+<a href="">  texto</a>
+
+<h1>ETIQUETAS DE MULTIMEDIA</h1>
+<img src="https://www.hubspot.com/hubfs/media/estructurahtmlejemploetiquetashtml.png" alt="no existe">
+
+<img src="images/imagen1.jpg" alt="no existe" width="400" height="300"><br>
+
+<iframe width="260" height="215" src="https://www.youtube.com/embed/i3OdKwuBjeM?si=K9vn5GfS9W5oAZEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<audio src="para insertar audio"></audio>
+<video src="desde un archivo"></video>
+
+<h1 class="color">TABLAS</h1>
+<style>
+    table, th, td {
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+    th, td {
+        background-color: rgb(233, 224, 121);
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    .mostrar{
+        background-color: rgb(226, 43, 43);
+    }
+    .color {
+        color: chartreuse;
+    }
+</style>
+
+<table class="mostrar">
+    <thead>
+        <tr>
+            <th> </th>
+            <th>Direccion</th>
+            <th>Ciudad</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>carrera 45</td>
+            <td>Medelllin</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>autopista 45</td>
+            <td>Bogota</td>
+        </tr>
+    </tbody>
+</table><br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Direccion</th>
+            <th>Ciudad</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>carrera 45</td>
+            <td>Medelllin</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>autopista 45</td>
+            <td>Bogota</td>
+        </tr>
+    </tbody>
+</table>
+
+<h1>Mi formulario</h1><br>
+<form action="formulario.php" method="post">
+    <label>Nombre: </label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label>Numero:</label><br>
+    <input type="number" min="1" max="12"><br>
+
+    <label for="">Correo</label><br>
+    <input type="email" placeholder="ingrese el email"><br>
+    
+    <label for="">selecciones su lenguaje:</label><br>
+
+    <input type="radio" id="opcion1" name="radio" value="opcion 1">  
+    <label for="opcion1">html</label><br>  
+
+    <input type="radio" id="opcion2" name="radio" value="opcion 2">  
+    <label for="opcion2">CSS</label><br>  
+
+    <input type="radio" id="opcion3" name="radio" value="opcion 3">  
+    <label for="opcion3">PYTHON</label><br> 
+    
+    <label for="">sleccione ciudad favorita:</label><br>
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Bogota</label><br>
+
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Medellin</label><br>
+
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Cali</label><br>
+
+    <label for="">Ingrese su contraseña</label><br>
+    <input type="password"><br>
+   
+    <label for="">Ingrese su fecha:</label><br>
+    <input type="date"><br>
+
+    <label for="">Rango</label><br>
+    <input type="range" min="0" max="100"><br>
+
+    <label for="">Color:</label><br>
+    <input type="color"><br>
+
+    <label for="">subir documento</label><br>
+    <input type="file"><br>
+
+    <label for="">ingrese su mensaje</label><br>
+    <textarea></textarea><br><br>
+
+    <label for="">buscar</label>
+    <input type="search"><br>
+
+    <label for="">Seleccione pais</label>
+    <select name="select" id="select">
+        <option value="opcion1">Colombia</option>
+        <option value="opcion2">Argentina</option>
+        <option value="opcion3">Brasil</option>
+        <option value="opcion4">España</option>
+    </select><br>
+
+    <button>Enviar</button>    
+</form>
+<!--las etiquetas div es un contenedor generico y se utiliza para agrupar elemento para organizar el contenido de una pagina-->
+
+<div class="container">
+    <h1>utilizando el div</h1>
+    <h2>subtitulo</h2>
+    <h3>subtitulo</h3>
+    <h4>subtitulo</h4>
+    <h5>subtitulo</h5>
+</div> 
+
+<style>
+    .container{
+        color: rgb(21, 70, 2);
+        background-color: rgb(151, 151, 255);
+        width: 50%;
+        border-radius: 10px;
+    }
+</style>
+<style>
+    .titulo{
+background-color: brown;
+    }
+
+h3{
+background-color: antiquewhite;
+    }
+</style>
+
+<h4 class="titulo" style="background-color: blueviolet; font-size: 45px; color: aqua; text-align: center; border: 30px;" >Etiquetas semanticas</h4>
+<h3> comprobando tamaños</h3>
+
+<!--
+<header></header>  = es el encabezado de una pagina
+<nav></nav> = bloque de navegacion
+<main></main> = contenido principal de la pagina
+<section></section> = agrupa secciones relacionadas con el contenido
+<article></article> = contenido independiente
+<aside></aside> =contenido segundario
+<footer></footer> = pie de pagina
+
+-->
+
+
+</body>
+</html>
